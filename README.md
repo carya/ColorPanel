@@ -1,0 +1,1 @@
+Demo to get the color at one point of UIView, include of the color of immovable view, color of rotating view.

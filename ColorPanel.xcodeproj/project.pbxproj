@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB1CA171B6454490025CFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA161B6454490025CFC7 /* main.m */; };
+		4AB1CA1A1B6454490025CFC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA191B6454490025CFC7 /* AppDelegate.m */; };
+		4AB1CA1D1B6454490025CFC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA1C1B6454490025CFC7 /* ViewController.m */; };
+		4AB1CA201B6454490025CFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CA1E1B6454490025CFC7 /* Main.storyboard */; };
+		4AB1CA221B6454490025CFC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CA211B6454490025CFC7 /* Images.xcassets */; };
+		4AB1CA251B6454490025CFC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CA231B6454490025CFC7 /* LaunchScreen.xib */; };
+		4AB1CA311B6454490025CFC7 /* ColorPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA301B6454490025CFC7 /* ColorPanelTests.m */; };
+		4AB1CA3D1B6455550025CFC7 /* UIView+ColorOfPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA3C1B6455550025CFC7 /* UIView+ColorOfPoint.m */; };
+		4AB1CA401B6455A90025CFC7 /* ImmovableColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA3F1B6455A90025CFC7 /* ImmovableColorPanel.m */; };
+		4AB1CA431B6455F60025CFC7 /* ImmovableColorPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA421B6455F60025CFC7 /* ImmovableColorPanelViewController.m */; };
+		4AB1CA471B6473A00025CFC7 /* RotaryColorPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA461B6473A00025CFC7 /* RotaryColorPanelViewController.m */; };
+		4AB1CA4A1B6473D80025CFC7 /* RotaryColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA491B6473D80025CFC7 /* RotaryColorPanel.m */; };
+		4AB1CA4C1B6473EB0025CFC7 /* RotaryColorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CA4B1B6473EB0025CFC7 /* RotaryColorPanel.xib */; };
+		4AB1CA501B6477940025CFC7 /* RoundColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */; };
+		F0F71BEBEEA87AEF276CF593 /* libPods-ColorPanel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3506E095E6AAF7F676A3F /* libPods-ColorPanel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB1CA2B1B6454490025CFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB1CA091B6454490025CFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB1CA101B6454490025CFC7;
+			remoteInfo = ColorPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB1CA111B6454490025CFC7 /* ColorPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB1CA151B6454490025CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB1CA161B6454490025CFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AB1CA181B6454490025CFC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AB1CA191B6454490025CFC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AB1CA1B1B6454490025CFC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AB1CA1C1B6454490025CFC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AB1CA1F1B6454490025CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AB1CA211B6454490025CFC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AB1CA241B6454490025CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AB1CA2A1B6454490025CFC7 /* ColorPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB1CA2F1B6454490025CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB1CA301B6454490025CFC7 /* ColorPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPanelTests.m; sourceTree = "<group>"; };
+		4AB1CA3B1B6455550025CFC7 /* UIView+ColorOfPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorOfPoint.h"; sourceTree = "<group>"; };
+		4AB1CA3C1B6455550025CFC7 /* UIView+ColorOfPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorOfPoint.m"; sourceTree = "<group>"; };
+		4AB1CA3E1B6455A90025CFC7 /* ImmovableColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmovableColorPanel.h; sourceTree = "<group>"; };
+		4AB1CA3F1B6455A90025CFC7 /* ImmovableColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmovableColorPanel.m; sourceTree = "<group>"; };
+		4AB1CA411B6455F60025CFC7 /* ImmovableColorPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmovableColorPanelViewController.h; sourceTree = "<group>"; };
+		4AB1CA421B6455F60025CFC7 /* ImmovableColorPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmovableColorPanelViewController.m; sourceTree = "<group>"; };
+		4AB1CA451B6473A00025CFC7 /* RotaryColorPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryColorPanelViewController.h; sourceTree = "<group>"; };
+		4AB1CA461B6473A00025CFC7 /* RotaryColorPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryColorPanelViewController.m; sourceTree = "<group>"; };
+		4AB1CA481B6473D80025CFC7 /* RotaryColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryColorPanel.h; sourceTree = "<group>"; };
+		4AB1CA491B6473D80025CFC7 /* RotaryColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryColorPanel.m; sourceTree = "<group>"; };
+		4AB1CA4B1B6473EB0025CFC7 /* RotaryColorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotaryColorPanel.xib; sourceTree = "<group>"; };
+		4AB1CA4E1B6477940025CFC7 /* RoundColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundColorPanel.h; sourceTree = "<group>"; };
+		4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundColorPanel.m; sourceTree = "<group>"; };
+		6EB97DFB3D9EDC0E2CCEC397 /* Pods-ColorPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPanel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPanel/Pods-ColorPanel.release.xcconfig"; sourceTree = "<group>"; };
+		BDF81275B0B646BB587DB150 /* Pods-ColorPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPanel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPanel/Pods-ColorPanel.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E3506E095E6AAF7F676A3F /* libPods-ColorPanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorPanel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB1CA0E1B6454490025CFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F71BEBEEA87AEF276CF593 /* libPods-ColorPanel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB1CA271B6454490025CFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB1CA081B6454490025CFC7 = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA131B6454490025CFC7 /* ColorPanel */,
+				4AB1CA2D1B6454490025CFC7 /* ColorPanelTests */,
+				4AB1CA121B6454490025CFC7 /* Products */,
+				94B671A7456003BAF96A8393 /* Pods */,
+				7E5D6CCB01C31E973A52A35A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB1CA121B6454490025CFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA111B6454490025CFC7 /* ColorPanel.app */,
+				4AB1CA2A1B6454490025CFC7 /* ColorPanelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB1CA131B6454490025CFC7 /* ColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA441B6473750025CFC7 /* RotaryColorPanel */,
+				4AB1CA3B1B6455550025CFC7 /* UIView+ColorOfPoint.h */,
+				4AB1CA3C1B6455550025CFC7 /* UIView+ColorOfPoint.m */,
+				4AB1CA3A1B6454A20025CFC7 /* ImmovableColorPanel */,
+				4AB1CA181B6454490025CFC7 /* AppDelegate.h */,
+				4AB1CA191B6454490025CFC7 /* AppDelegate.m */,
+				4AB1CA1B1B6454490025CFC7 /* ViewController.h */,
+				4AB1CA1C1B6454490025CFC7 /* ViewController.m */,
+				4AB1CA1E1B6454490025CFC7 /* Main.storyboard */,
+				4AB1CA211B6454490025CFC7 /* Images.xcassets */,
+				4AB1CA231B6454490025CFC7 /* LaunchScreen.xib */,
+				4AB1CA141B6454490025CFC7 /* Supporting Files */,
+			);
+			path = ColorPanel;
+			sourceTree = "<group>";
+		};
+		4AB1CA141B6454490025CFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA151B6454490025CFC7 /* Info.plist */,
+				4AB1CA161B6454490025CFC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB1CA2D1B6454490025CFC7 /* ColorPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA301B6454490025CFC7 /* ColorPanelTests.m */,
+				4AB1CA2E1B6454490025CFC7 /* Supporting Files */,
+			);
+			path = ColorPanelTests;
+			sourceTree = "<group>";
+		};
+		4AB1CA2E1B6454490025CFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA2F1B6454490025CFC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB1CA3A1B6454A20025CFC7 /* ImmovableColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA3E1B6455A90025CFC7 /* ImmovableColorPanel.h */,
+				4AB1CA3F1B6455A90025CFC7 /* ImmovableColorPanel.m */,
+				4AB1CA411B6455F60025CFC7 /* ImmovableColorPanelViewController.h */,
+				4AB1CA421B6455F60025CFC7 /* ImmovableColorPanelViewController.m */,
+			);
+			name = ImmovableColorPanel;
+			sourceTree = "<group>";
+		};
+		4AB1CA441B6473750025CFC7 /* RotaryColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA4D1B6476690025CFC7 /* RotaryColorPanel */,
+				4AB1CA451B6473A00025CFC7 /* RotaryColorPanelViewController.h */,
+				4AB1CA461B6473A00025CFC7 /* RotaryColorPanelViewController.m */,
+			);
+			name = RotaryColorPanel;
+			sourceTree = "<group>";
+		};
+		4AB1CA4D1B6476690025CFC7 /* RotaryColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CA481B6473D80025CFC7 /* RotaryColorPanel.h */,
+				4AB1CA491B6473D80025CFC7 /* RotaryColorPanel.m */,
+				4AB1CA4B1B6473EB0025CFC7 /* RotaryColorPanel.xib */,
+				4AB1CA4E1B6477940025CFC7 /* RoundColorPanel.h */,
+				4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */,
+			);
+			name = RotaryColorPanel;
+			sourceTree = "<group>";
+		};
+		7E5D6CCB01C31E973A52A35A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3506E095E6AAF7F676A3F /* libPods-ColorPanel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94B671A7456003BAF96A8393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDF81275B0B646BB587DB150 /* Pods-ColorPanel.debug.xcconfig */,
+				6EB97DFB3D9EDC0E2CCEC397 /* Pods-ColorPanel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB1CA101B6454490025CFC7 /* ColorPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB1CA341B6454490025CFC7 /* Build configuration list for PBXNativeTarget "ColorPanel" */;
+			buildPhases = (
+				9A998DB2C94BE07F6F2E8453 /* Check Pods Manifest.lock */,
+				4AB1CA0D1B6454490025CFC7 /* Sources */,
+				4AB1CA0E1B6454490025CFC7 /* Frameworks */,
+				4AB1CA0F1B6454490025CFC7 /* Resources */,
+				5E92C64793494DA043A6B689 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPanel;
+			productName = ColorPanel;
+			productReference = 4AB1CA111B6454490025CFC7 /* ColorPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB1CA291B6454490025CFC7 /* ColorPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB1CA371B6454490025CFC7 /* Build configuration list for PBXNativeTarget "ColorPanelTests" */;
+			buildPhases = (
+				4AB1CA261B6454490025CFC7 /* Sources */,
+				4AB1CA271B6454490025CFC7 /* Frameworks */,
+				4AB1CA281B6454490025CFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB1CA2C1B6454490025CFC7 /* PBXTargetDependency */,
+			);
+			name = ColorPanelTests;
+			productName = ColorPanelTests;
+			productReference = 4AB1CA2A1B6454490025CFC7 /* ColorPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB1CA091B6454490025CFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CaryaLiu;
+				TargetAttributes = {
+					4AB1CA101B6454490025CFC7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4AB1CA291B6454490025CFC7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4AB1CA101B6454490025CFC7;
+					};
+				};
+			};
+			buildConfigurationList = 4AB1CA0C1B6454490025CFC7 /* Build configuration list for PBXProject "ColorPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB1CA081B6454490025CFC7;
+			productRefGroup = 4AB1CA121B6454490025CFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB1CA101B6454490025CFC7 /* ColorPanel */,
+				4AB1CA291B6454490025CFC7 /* ColorPanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB1CA0F1B6454490025CFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1CA201B6454490025CFC7 /* Main.storyboard in Resources */,
+				4AB1CA4C1B6473EB0025CFC7 /* RotaryColorPanel.xib in Resources */,
+				4AB1CA251B6454490025CFC7 /* LaunchScreen.xib in Resources */,
+				4AB1CA221B6454490025CFC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB1CA281B6454490025CFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E92C64793494DA043A6B689 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorPanel/Pods-ColorPanel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A998DB2C94BE07F6F2E8453 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB1CA0D1B6454490025CFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1CA1D1B6454490025CFC7 /* ViewController.m in Sources */,
+				4AB1CA1A1B6454490025CFC7 /* AppDelegate.m in Sources */,
+				4AB1CA3D1B6455550025CFC7 /* UIView+ColorOfPoint.m in Sources */,
+				4AB1CA171B6454490025CFC7 /* main.m in Sources */,
+				4AB1CA431B6455F60025CFC7 /* ImmovableColorPanelViewController.m in Sources */,
+				4AB1CA4A1B6473D80025CFC7 /* RotaryColorPanel.m in Sources */,
+				4AB1CA471B6473A00025CFC7 /* RotaryColorPanelViewController.m in Sources */,
+				4AB1CA501B6477940025CFC7 /* RoundColorPanel.m in Sources */,
+				4AB1CA401B6455A90025CFC7 /* ImmovableColorPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB1CA261B6454490025CFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1CA311B6454490025CFC7 /* ColorPanelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB1CA2C1B6454490025CFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB1CA101B6454490025CFC7 /* ColorPanel */;
+			targetProxy = 4AB1CA2B1B6454490025CFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AB1CA1E1B6454490025CFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB1CA1F1B6454490025CFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AB1CA231B6454490025CFC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB1CA241B6454490025CFC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB1CA321B6454490025CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AB1CA331B6454490025CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB1CA351B6454490025CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF81275B0B646BB587DB150 /* Pods-ColorPanel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB1CA361B6454490025CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB97DFB3D9EDC0E2CCEC397 /* Pods-ColorPanel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AB1CA381B6454490025CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPanel.app/ColorPanel";
+			};
+			name = Debug;
+		};
+		4AB1CA391B6454490025CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPanel.app/ColorPanel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB1CA0C1B6454490025CFC7 /* Build configuration list for PBXProject "ColorPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1CA321B6454490025CFC7 /* Debug */,
+				4AB1CA331B6454490025CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB1CA341B6454490025CFC7 /* Build configuration list for PBXNativeTarget "ColorPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1CA351B6454490025CFC7 /* Debug */,
+				4AB1CA361B6454490025CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB1CA371B6454490025CFC7 /* Build configuration list for PBXNativeTarget "ColorPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1CA381B6454490025CFC7 /* Debug */,
+				4AB1CA391B6454490025CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB1CA091B6454490025CFC7 /* Project object */;
+}

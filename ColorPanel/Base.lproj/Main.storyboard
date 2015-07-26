@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K8M-xo-kqG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wta-3t-JVW">
+                                <rect key="frame" x="225" y="164" width="151" height="30"/>
+                                <state key="normal" title="ImmovableColorPanel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YIL-de-9Tg" kind="show" id="r1g-q3-HWJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLz-cF-aWq">
+                                <rect key="frame" x="239" y="324" width="123" height="30"/>
+                                <state key="normal" title="SlidingColorPabel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuV-vA-COZ">
+                                <rect key="frame" x="240" y="244" width="121" height="30"/>
+                                <state key="normal" title="RotaryColorPanel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ii5-f5-O8Y" kind="show" id="noH-Rc-8l0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CuV-vA-COZ" firstAttribute="top" secondItem="wta-3t-JVW" secondAttribute="bottom" constant="50" id="4km-fG-Ffl"/>
+                            <constraint firstAttribute="centerX" secondItem="CuV-vA-COZ" secondAttribute="centerX" id="7Mm-Mt-NEX"/>
+                            <constraint firstAttribute="centerX" secondItem="YLz-cF-aWq" secondAttribute="centerX" id="7rL-pR-wfO"/>
+                            <constraint firstItem="wta-3t-JVW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="QXu-Ju-ELG"/>
+                            <constraint firstAttribute="centerX" secondItem="wta-3t-JVW" secondAttribute="centerX" id="k2F-Sh-Rcn"/>
+                            <constraint firstItem="YLz-cF-aWq" firstAttribute="top" secondItem="CuV-vA-COZ" secondAttribute="bottom" constant="50" id="rkT-TI-Ejb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JZY-me-Wc1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="318"/>
+        </scene>
+        <!--ImmovableColorPanel-->
+        <scene sceneID="iDv-ax-nKU">
+            <objects>
+                <viewController title="ImmovableColorPanel" id="YIL-de-9Tg" customClass="ImmovableColorPanelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6xk-T8-sRc"/>
+                        <viewControllerLayoutGuide type="bottom" id="D0e-kR-rc7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xHA-DA-vwR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAR-AR-O4K" customClass="ImmovableColorPanel">
+                                <rect key="frame" x="183" y="183" width="235" height="235"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_color_panel" translatesAutoresizingMaskIntoConstraints="NO" id="zQK-Qh-XAv">
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="235"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="PLO-rj-bnZ"/>
+                                    <constraint firstAttribute="centerY" secondItem="zQK-Qh-XAv" secondAttribute="centerY" id="REJ-pb-ZPo"/>
+                                    <constraint firstAttribute="centerX" secondItem="zQK-Qh-XAv" secondAttribute="centerX" id="Zok-VF-ecd"/>
+                                    <constraint firstAttribute="width" constant="235" id="cfp-jj-Rce"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="117.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="touchMoved:" destination="YIL-de-9Tg" eventType="valueChanged" id="bkP-pv-eMD"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kAR-AR-O4K" secondAttribute="centerX" id="9SA-Cg-RKo"/>
+                            <constraint firstAttribute="centerY" secondItem="kAR-AR-O4K" secondAttribute="centerY" id="Mg4-gW-tvU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2n-eI-cVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260" y="-153"/>
+        </scene>
+        <!--ColorPanel-->
+        <scene sceneID="f4Y-9k-FVh">
+            <objects>
+                <navigationController title="ColorPanel" automaticallyAdjustsScrollViewInsets="NO" id="K8M-xo-kqG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="enL-2o-M83">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="2ui-5O-XcE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="75n-o0-DJS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="318"/>
+        </scene>
+        <!--RotaryColorPanel-->
+        <scene sceneID="bdE-4j-mYg">
+            <objects>
+                <viewController title="RotaryColorPanel" id="ii5-f5-O8Y" customClass="RotaryColorPanelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bz9-XX-qxq"/>
+                        <viewControllerLayoutGuide type="bottom" id="b4W-Qh-Kp1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oiQ-DK-YtE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUK-CY-i3s" customClass="RotaryColorPanel">
+                                <rect key="frame" x="183" y="183" width="235" height="235"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="EAs-LO-iBA"/>
+                                    <constraint firstAttribute="height" constant="235" id="mu9-6x-o2R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="EUK-CY-i3s" secondAttribute="centerX" id="8gf-aJ-QKK"/>
+                            <constraint firstAttribute="centerY" secondItem="EUK-CY-i3s" secondAttribute="centerY" id="Amz-fp-KCP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="rotaryColorPanel" destination="EUK-CY-i3s" id="bLE-Ce-SUH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVX-9J-7Z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260" y="523"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_color_panel" width="235" height="235"/>
+    </resources>
+</document>
