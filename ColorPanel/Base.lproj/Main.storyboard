@@ -31,6 +31,9 @@
                                 <state key="normal" title="SlidingColorPabel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="f3J-st-kBc" kind="show" id="dHl-dy-Mxi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuV-vA-COZ">
                                 <rect key="frame" x="240" y="244" width="121" height="30"/>
@@ -104,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2n-eI-cVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2260" y="-153"/>
+            <point key="canvasLocation" x="2340" y="-473"/>
         </scene>
         <!--ColorPanel-->
         <scene sceneID="f4Y-9k-FVh">
@@ -157,7 +160,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uVX-9J-7Z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2260" y="523"/>
+            <point key="canvasLocation" x="2340" y="209"/>
+        </scene>
+        <!--Slider Color Panel View Controller-->
+        <scene sceneID="t86-Qh-Vf1">
+            <objects>
+                <viewController id="f3J-st-kBc" customClass="SliderColorPanelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4do-j0-xy1"/>
+                        <viewControllerLayoutGuide type="bottom" id="bA6-zl-HMQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jvr-t0-bh4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A07-Yz-3hc" customClass="SliderColorPanel">
+                                <rect key="frame" x="180" y="260" width="240" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="HnP-wL-3qr"/>
+                                    <constraint firstAttribute="width" constant="240" id="YrE-FY-Naq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="A07-Yz-3hc" secondAttribute="centerX" id="fe5-dZ-gSp"/>
+                            <constraint firstAttribute="centerY" secondItem="A07-Yz-3hc" secondAttribute="centerY" id="hGY-yQ-wbs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sliderColorPanel" destination="A07-Yz-3hc" id="lsN-vv-xvz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OD6-Pi-Uqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2340" y="870"/>
         </scene>
     </scenes>
     <resources>

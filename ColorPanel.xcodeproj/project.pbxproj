@@ -21,6 +21,9 @@
 		4AB1CA4A1B6473D80025CFC7 /* RotaryColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA491B6473D80025CFC7 /* RotaryColorPanel.m */; };
 		4AB1CA4C1B6473EB0025CFC7 /* RotaryColorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CA4B1B6473EB0025CFC7 /* RotaryColorPanel.xib */; };
 		4AB1CA501B6477940025CFC7 /* RoundColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */; };
+		4AF9F2561B666C78000F33F3 /* SliderColorPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9F2551B666C78000F33F3 /* SliderColorPanelViewController.m */; };
+		4AF9F25A1B667812000F33F3 /* SliderColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9F2591B667812000F33F3 /* SliderColorPanel.m */; };
+		4AF9F25D1B667847000F33F3 /* BarColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9F25C1B667847000F33F3 /* BarColorPanel.m */; };
 		F0F71BEBEEA87AEF276CF593 /* libPods-ColorPanel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3506E095E6AAF7F676A3F /* libPods-ColorPanel.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,12 @@
 		4AB1CA4B1B6473EB0025CFC7 /* RotaryColorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotaryColorPanel.xib; sourceTree = "<group>"; };
 		4AB1CA4E1B6477940025CFC7 /* RoundColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundColorPanel.h; sourceTree = "<group>"; };
 		4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundColorPanel.m; sourceTree = "<group>"; };
+		4AF9F2541B666C78000F33F3 /* SliderColorPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderColorPanelViewController.h; sourceTree = "<group>"; };
+		4AF9F2551B666C78000F33F3 /* SliderColorPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderColorPanelViewController.m; sourceTree = "<group>"; };
+		4AF9F2581B667812000F33F3 /* SliderColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderColorPanel.h; sourceTree = "<group>"; };
+		4AF9F2591B667812000F33F3 /* SliderColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderColorPanel.m; sourceTree = "<group>"; };
+		4AF9F25B1B667847000F33F3 /* BarColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarColorPanel.h; sourceTree = "<group>"; };
+		4AF9F25C1B667847000F33F3 /* BarColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarColorPanel.m; sourceTree = "<group>"; };
 		6EB97DFB3D9EDC0E2CCEC397 /* Pods-ColorPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPanel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPanel/Pods-ColorPanel.release.xcconfig"; sourceTree = "<group>"; };
 		BDF81275B0B646BB587DB150 /* Pods-ColorPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPanel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPanel/Pods-ColorPanel.debug.xcconfig"; sourceTree = "<group>"; };
 		F5E3506E095E6AAF7F676A3F /* libPods-ColorPanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorPanel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,9 +117,10 @@
 		4AB1CA131B6454490025CFC7 /* ColorPanel */ = {
 			isa = PBXGroup;
 			children = (
-				4AB1CA441B6473750025CFC7 /* RotaryColorPanel */,
 				4AB1CA3B1B6455550025CFC7 /* UIView+ColorOfPoint.h */,
 				4AB1CA3C1B6455550025CFC7 /* UIView+ColorOfPoint.m */,
+				4AF9F2531B666B12000F33F3 /* SliderColorPanel */,
+				4AB1CA441B6473750025CFC7 /* RotaryColorPanel */,
 				4AB1CA3A1B6454A20025CFC7 /* ImmovableColorPanel */,
 				4AB1CA181B6454490025CFC7 /* AppDelegate.h */,
 				4AB1CA191B6454490025CFC7 /* AppDelegate.m */,
@@ -181,6 +191,27 @@
 				4AB1CA4F1B6477940025CFC7 /* RoundColorPanel.m */,
 			);
 			name = RotaryColorPanel;
+			sourceTree = "<group>";
+		};
+		4AF9F2531B666B12000F33F3 /* SliderColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9F2571B6677EB000F33F3 /* SliderColorPanel */,
+				4AF9F2541B666C78000F33F3 /* SliderColorPanelViewController.h */,
+				4AF9F2551B666C78000F33F3 /* SliderColorPanelViewController.m */,
+			);
+			name = SliderColorPanel;
+			sourceTree = "<group>";
+		};
+		4AF9F2571B6677EB000F33F3 /* SliderColorPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9F2581B667812000F33F3 /* SliderColorPanel.h */,
+				4AF9F2591B667812000F33F3 /* SliderColorPanel.m */,
+				4AF9F25B1B667847000F33F3 /* BarColorPanel.h */,
+				4AF9F25C1B667847000F33F3 /* BarColorPanel.m */,
+			);
+			name = SliderColorPanel;
 			sourceTree = "<group>";
 		};
 		7E5D6CCB01C31E973A52A35A /* Frameworks */ = {
@@ -342,8 +373,11 @@
 				4AB1CA171B6454490025CFC7 /* main.m in Sources */,
 				4AB1CA431B6455F60025CFC7 /* ImmovableColorPanelViewController.m in Sources */,
 				4AB1CA4A1B6473D80025CFC7 /* RotaryColorPanel.m in Sources */,
+				4AF9F25D1B667847000F33F3 /* BarColorPanel.m in Sources */,
 				4AB1CA471B6473A00025CFC7 /* RotaryColorPanelViewController.m in Sources */,
 				4AB1CA501B6477940025CFC7 /* RoundColorPanel.m in Sources */,
+				4AF9F2561B666C78000F33F3 /* SliderColorPanelViewController.m in Sources */,
+				4AF9F25A1B667812000F33F3 /* SliderColorPanel.m in Sources */,
 				4AB1CA401B6455A90025CFC7 /* ImmovableColorPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

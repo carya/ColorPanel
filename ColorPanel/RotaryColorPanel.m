@@ -13,9 +13,18 @@
 
 @interface RotaryColorPanel () <XXNibBridge>
 
+/**
+ *  可旋转的颜色板
+ */
 @property (weak, nonatomic) IBOutlet RoundColorPanel *roundColorPanel;
+/**
+ *  下三角指示标识
+ */
 @property (weak, nonatomic) IBOutlet UIImageView *indicator;
 
+/**
+ *  获取该点的颜色值
+ */
 @property (nonatomic) CGPoint referPoint;
 
 @end
